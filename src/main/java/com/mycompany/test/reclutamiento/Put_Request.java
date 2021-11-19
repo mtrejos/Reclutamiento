@@ -18,7 +18,7 @@ import org.apache.http.impl.client.HttpClients;
 
 /**
  *
- * @author ErickAndresMataMata
+ * @author Mariam Trejos
  */
 public class Put_Request {
 

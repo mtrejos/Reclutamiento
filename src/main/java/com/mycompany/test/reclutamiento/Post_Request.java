@@ -27,7 +27,7 @@ import org.apache.http.message.BasicNameValuePair;
 
 /**
  *
- * @author ErickAndresMataMata
+ * @author Mariam Trejos
  */
 public class Post_Request {
 
