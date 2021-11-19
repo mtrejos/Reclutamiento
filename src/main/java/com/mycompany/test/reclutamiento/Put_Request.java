@@ -7,6 +7,7 @@ package com.mycompany.test.reclutamiento;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import javax.swing.JOptionPane;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
@@ -49,7 +50,8 @@ public class Put_Request {
         if (response.getStatusLine().getStatusCode() != 200) {
             throw new RuntimeException("Failed : HTTP error code : " + response.getStatusLine().getStatusCode());
         }else{
-            System.out.println("EXITO");
+           // System.out.println("EXITO");
+             JOptionPane.showMessageDialog(null, "PRODUCTO CREADO EXITOSAMENTE");
         }
 
         //Create the StringBuffer object and store the response into it. 
