@@ -39,7 +39,7 @@ public class Post_Request {
         String json = "{\n" +
             "  \"name\": \""+name+"\",\n" +
             "  \"image\": \""+description+"\",\n" +
-            "  \"id\": \"9198ead1-ee77-4106-9649-09588c45b23b\",\n" +
+            "  \"id\": \"9745ee17-9adc-4b30-bc4f-a7d16d226f06\",\n" +
             "  \"price\": "+price+"\n" +
            
             "}";
